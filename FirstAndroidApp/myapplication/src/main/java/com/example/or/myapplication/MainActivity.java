@@ -49,8 +49,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     public void onClick(View v) {
         if (v.getId() == R.id.submit) {
             String s = "ddddd";
+            String t = "dddddsss";
+            String c = s + t;
             TextView thetext = (TextView) findViewById(R.id.textF);
-            thetext.setText(s);
+            thetext.setText(c);
             thetext.setBackgroundColor(Color.BLUE);
         }
 
